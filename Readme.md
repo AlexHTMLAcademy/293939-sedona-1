@@ -1,13 +1,13 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алекс](https://up.htmlacademy.ru/adaptive/10/user/293939).
-* Наставник: `Неизвестно`.
+* Наставник: [Филипп](https://up.htmlacademy.ru/htmlcss/16/user/70260).
 
 ---
 
 **Обратите внимание на файлы:**
 
-- [Specification.md](Specification.md) — техническое задание для вашего проекта. Прочтите его и следуйте требованиям.
+- [Specification.md](Specification.md) — техническое задание для вашего проекта.
 - [Contributing.md](Contributing.md) — руководство по внесению изменений.
 
 --
