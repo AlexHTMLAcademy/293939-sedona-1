@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+  </head>
+  <body class="body">
+    <div class="container">
+      <header class="header">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#">Главная</a></li>
+            <li class="menu__item"><a href="#">Фото и видео</a></li>
+            <li class="menu__item"><a href="#">Форма отзыва</a></li>
+            <li class="menu__item"><a href="#">HTML academy</a></li>
+          </ul>
+          <a href="#"><img src="http://placehold.it/150x100"></a>
+          <a href="#"></a>
+        </nav>
+      </header>
+      <section class="jumbotron">
+        <img src="http://placehold.it/150x100">
+        <img src="http://placehold.it/150x100">
+      </section>
+      <section class="description">
+        <h1 class="description__headline">Оставьте свой отзыв</h1>
+        <p class="description__copy">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </section>
+      <hr>
+      <form class="quiz-form" action="https://echo.htmlacademy.ru" method="post">
+        <fieldset class="quiz-form__item">
+          <legend class="quiz-form__title">Представьтесь:</legend>
+          <label class="quiz-form__label">Имя*:
+            <input class="quiz-form__input" type="text" name="first-name" value="Петр" required>
+          </label>
+          <label class="quiz-form__label">Фамилия*:
+            <input class="quiz-form__input" type="text" name="last-name" value="Иванов" required>
+          </label>
+          <label class="quiz-form__label">Отчество*:
+            <input class="feedback__input" type="text" name="second-name" value="Александрович" required>
+          </label>
+        </fieldset>
+        <fieldset class="quiz-form__item">
+          <legend class="quiz-form__title">Контактная информация:</legend>
+          <label class="fquiz-form__label">Контактный телефон*:
+            <input class="quiz-form__input" type="tel" name="phone" placeholder="Введите телефон" pattern="" required>
+            <span class="quiz-form__phone-icon"></span>
+            <span class="quiz-form__error">Ошибка, перепроверьте номер</span>
+          </label>
+          <label class="fquiz-form__label">Электронная почта*:
+            <input class="quiz-form__input" type="email" name="email" placeholder="Введите e-mail" required>
+            <span class="quiz-form__email-icon"></span>
+          </label>
+        </fieldset>
+        <fieldset class="quiz-form__item">
+          <legend class="quiz-form__title">Ваше общее впечатление:</legend>
+          <label class="quiz-form__label">Скорее положительное
+            <input class="quiz-form__selector" type="radio" name="radio" value="positive" checked>
+          </label>
+          <label class="quiz-form__label">Скорее отрицательное
+            <input class="quiz-form__selector" type="radio" name="radio" value="negative">
+          </label>
+          <label class="quiz-form__label">Затрудняюсь ответить
+            <input class="quiz-form__selector" type="radio" name="radio" value="neutral">
+          </label>
+        </fieldset>
+        <fieldset class="quiz-form__item">
+          <legend class="quiz-form__title">Посещенные достопримечательности:</legend>
+          <label class="quiz-form__label">Мост Дьявола
+            <input class="quiz-form__selector" type="checkbox" name="checkbox" value="devils-bridge" checked>
+          </label>
+          <label class="quiz-form__label">Слайд-парк
+            <input class="quiz-form__selector" type="checkbox" name="checkbox" value="slide-park" checked>
+          </label>
+          <label class="quiz-form__label">Гора-Колокол
+            <input class="quiz-form__selector" type="checkbox" name="checkbox" value="mount-bell">
+          </label>
+          <label class="quiz-form__label">Красные скалы
+            <input class="quiz-form__selector" type="checkbox" name="checkbox" value="red-rocks" checked>
+          </label>
+        </fieldset>
+        <fieldset class="quiz-form__item">
+          <legend class="quiz-form__title">Опишите свои эмоции:</legend>
+          <textarea class="quiz-form__input">Опишите подробно все свои восторги</textarea>
+        </fieldset>
+        <button class="quiz-form__btn" type="submit">Отправить отзыв</button>
+      </form>
+      <footer class="footer">
+          <div class="footer_hashtag">
+            #visitsedona
+          </div>
+          <div class="footer_social">
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+            <a href="#">Youtube</a>
+          </div>
+          <div class="footer_copyright">
+            <a>Разработано</a>
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>
