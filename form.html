@@ -11,7 +11,7 @@
           <img class="logo__image"src="http://placehold.it/150x100">
         </a>
         <nav class="menu">
-          <button class="hamburger close" type="button" name="button"></button>
+          <button class="hamburger hamburger--close" type="button" name="button"></button>
           <ul class="menu__list">
             <li class="menu__item">
               <a href="#">Главная</a>
@@ -30,7 +30,6 @@
         <button class="hamburger" type="button" name="button"></button>
       </header>
       <section class="jumbotron">
-        <img src="http://placehold.it/150x100">
         <img src="http://placehold.it/150x100">
       </section>
       <section class="description">
@@ -102,13 +101,25 @@
               <input class="form-field__selector" id="red-rocks" type="checkbox" name="red-rocks" value="red-rocks" checked>
             </div>
           </fieldset>
-          <fieldset class="text-block">
-            <legend class="text-block__title">Опишите свои эмоции:</legend>
-            <textarea class="text-block__input">Опишите подробно все свои восторги</textarea>
+          <fieldset class="form-field">
+            <legend class="form-field__title">Опишите свои эмоции:</legend>
+            <textarea class="form-field__input">Опишите подробно все свои восторги</textarea>
           </fieldset>
           <button class="btn" type="submit">Отправить отзыв</button>
         </form>
       </div>
+      <section class="description">
+        <h2 class="description__headline">Что-то пошло не так!</h2>
+        <p class="description__copy">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить.</p>
+        <a class="btn" href="">Ок</a>
+      </section>
+      <section class="description">
+        <h2 class="description__headline">Ваш отзыв отправлен!</h2>
+        <p class="description__copy">Спасибо за ваше участие, ваш отзыв уже поступил к нам. В ближайшее время мы опубликуем его на сайте.</p>
+        <div class="description__button-overlay">
+          <a class="btn" href="">Закрыть окно</a>
+        </div>
+      </section>
       <footer class="footer">
         <div class="hashtag">#visitsedona</div>
         <div class="social">
